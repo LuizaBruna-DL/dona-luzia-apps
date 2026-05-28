@@ -1,3 +1,5 @@
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from "recharts";
+
 import { useState, useEffect } from "react";
 import * as XLSX from "xlsx";
 
@@ -74,7 +76,6 @@ function BtnExport({ onClick }) {
   );
 }
 
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from "recharts";
 
 // ── TEMA ──────────────────────────────────────────────────────────────────────
 const t = {
